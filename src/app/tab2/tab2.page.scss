@@ -1,0 +1,151 @@
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+/*Etiqueta de formateo*/
+* {
+  font-family: 'lato';
+}
+
+ion-content {
+  background-color: rgba(255, 0, 0, 0.4);
+}
+.textoPrincipal {
+  color: #0A3054;
+  font-weight: bold;
+}
+
+#textoPrincipalHead {
+  color: rgb(0, 0, 0);
+}
+.textoPrincipal span {
+  color: #0A3054;
+  font-weight: bold;
+}
+.logoMAF{
+  width: 50px;
+  height: 65px;
+  margin-top: 0.5rem;
+  margin-right: 0.45rem;
+}
+ion-content {
+  background-color: rgba(255, 0, 0, 0.4);
+}
+
+/*Primera Sección Textos*/
+#primeraRow {
+  margin-top: 1.2rem;
+}
+
+.txtSL {
+  font-size: 0.75rem;
+  color: #686868;
+  margin-left: 0.45rem;
+}
+
+.textoSecundarios {
+  margin-top: -0.50rem;
+}
+
+.textoTerciarios {
+  margin-top: -0.35rem;
+  font-weight: bold;
+  font-size: 0.85rem;
+  color: #505050;
+}
+
+/*Barras ade Busqueda*/
+#barraDeBusqueda {
+  margin-top: -0.70rem;
+}
+
+#barraBusqueda {
+  /*height: 50px;*/
+  margin-top: 1.2vh;
+  margin-bottom: 1.2vh;
+}
+
+/*Alquileres*/
+.cardsAlquileres {
+  width: 85vw;
+  height: 30vh;
+  margin-bottom: 3.75rem;
+  background-color: pink;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+}
+
+/*Precio*/
+.cntPrecio {
+  width: 100%;
+  height: 23vh;
+  /* background-color: rgba(255, 0, 0, 0.4); */
+  display: flex;
+  flex-direction: row-reverse;
+  border-radius: 13%;
+}
+
+.precio {
+  width: 25vw;
+  height: 7vh;
+  background-color: #FEE626;
+  border-radius: 0px 12px;
+}
+
+.monto {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 0.50rem;
+}
+
+/*Informacion de Casa*/
+.contenedorInfo {
+  width: 100%;
+  height: 12vh;
+  background-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  text-decoration-line: none;
+  align-self: flex-end;
+  border-radius: 0% 0% 0% 0%;
+  color: rgb(0, 0, 0);
+}
+
+
+/*Titulos*/
+.textTitulo {
+  font-size: 1rem;
+  margin-top: -0.20rem;
+  color: #303030;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.textBarrio {
+  font-size: 0.65rem;
+  margin-top: -0.50rem;
+  color: #686868;
+  text-decoration: none;
+}
+
+/*Avatar*/
+.avartar {
+  width: 17vw;
+  height: 17vw;
+  margin-top: -0.30rem;
+  margin-left: 0.70rem;
+  border-radius: 50%;
+  border: 2px solid rgb(255, 0, 0);
+}
+
+.nombreAvatar {
+  margin-top: -0.10rem;
+  margin-left: 0.15rem;
+  font-size: 0.53rem;
+  text-align: center;
+  color: #686868;
+  text-decoration: none;
+}

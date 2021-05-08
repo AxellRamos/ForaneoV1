@@ -1,0 +1,65 @@
+<ion-content>
+  <!--Grid de Ionic-->
+  <ion-grid>
+    <!--Fila de encabezado-->
+    <ion-row id="primeraRow">
+      <!--Primera Columna-->
+      <ion-col size="9">
+        <div>
+          <h1 class="textoPrincipal">Viaje seguro con <span>Nosotros</span></h1>
+        </div>
+      </ion-col>
+      <!--Segunda Columna-->
+      <ion-col zise="3">
+        <img src="../assets/media/img/iconos/petIcon.png" class="logoMAF">
+      </ion-col>
+    </ion-row>
+    <!--Contenedor Banners-->
+    <ion-row id="cntSlider">
+      <ion-text>
+        <h6 class="tituloSLider">Tu eliges como viajar</h6>
+      </ion-text>
+      <ion-slides pager="true">
+        <!--Item Slider 1-->
+        <ion-slide class="itemSliderPromo">
+          <div class="card"  id="itemSliderPromo1" style="background-image:url('../../assets/media/banners/bannerTransporte/bannerTransporte1.png')">
+          </div>
+        </ion-slide>
+        <!--Item Slider 2-->
+        <ion-slide class="itemSliderPromo">
+          <div class="card" id="itemSliderPromo2" style="background-image:url('../../assets/media/banners/bannerTransporte/bannerTransporte2.png')">
+          </div>
+        </ion-slide>
+        <!--Item Slider 3-->
+        <ion-slide class="itemSliderPromo">
+          <div class="card" id="itemSliderPromo3" style="background-image:url('../../assets/media/banners/bannerTransporte/bannerTransporte3.png')">
+          </div>
+        </ion-slide>
+      </ion-slides>
+    </ion-row>
+    <!--Tarjetas de Taxista-->
+    <ion-text>
+      <h6 class="tituloCards">Taxista con mejores reseñas</h6>
+    </ion-text>
+    <ion-row class="ion-justify-content-center cntCardTaxistas">
+      <ion-grid>
+        <ion-row class="cardTaxista" (click)="pag()">
+          <!--Foto de Taxissta-->
+          <ion-col size="3">
+            <div class="fotoTaxista" style="background-image:url('../../assets/avatar/avatarTaxi/avatar1.jpg')"></div>
+          </ion-col >
+          <!--Datos de Taxista-->
+          <ion-col size="9">
+            <div class="infoTaxista">
+              <h6 class="infoTaxi" id="nombreTaxi">Luis Jimenez</h6>
+              <p class="infoTaxi" id="modeloTaxi"><span>Modelo:</span> Kia Morning</p>
+              <p class="infoTaxi" id="colorTaxi"><span>Color:</span> Amarrillo</p>
+              <p class="infoTaxi" id="placaTaxi"><span>Placa:</span> Es 00122</p>
+              <p class="infoTaxi" id="cooperativaTaxi"><span>Cooperativa:</span> Coop. Rivas 123</p>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-row>
+  </ion-grid>
+</ion-content>

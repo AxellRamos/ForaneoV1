@@ -1,0 +1,16 @@
+.rend{
+    width: 100%;
+    padding-left: 0; 
+    margin: 0;
+    border-top-left-radius: 5% 5%;
+    border-top-right-radius: 5% 5%;
+    --ion-background-color:#FEE626 !important;
+}
+.input{
+    background-color:#ffffff !important;
+    --ion-background-color:#ffffff !important;
+    border-radius: 15px;
+}
+*{
+    font-family: 'lato';
+}

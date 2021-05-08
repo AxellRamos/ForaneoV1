@@ -1,0 +1,62 @@
+<ion-content>
+  <br>
+  <ion-grid>
+    <ion-row>
+      
+      <ion-col size="1"></ion-col>
+
+      <ion-col size="7">
+        <h3 class="textoPrincipal" id="textoPrincipalHead">Encuentra tu lugar <span>Ideal</span></h3>
+      </ion-col>
+      <ion-col size="3">
+        <img src="../assets/media/img/iconos/petIcon.png" alt="" class="logoMAF">
+      </ion-col>
+
+      <ion-col size="1"></ion-col>
+
+    </ion-row>
+    <!--Prueba-->
+
+    <ion-list>    
+      <ion-item>
+        <ion-label>Filtro: </ion-label>
+        <ion-select value="brown" okText="Okay" cancelText="Dismiss">
+          <ion-select-option value="brown">Todos</ion-select-option>
+          <ion-select-option value="blonde">Casas</ion-select-option>
+          <ion-select-option value="black">Apartamentos</ion-select-option>
+          <ion-select-option value="red">Cuartos</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+
+    <!--Prueba-->
+
+    <!--Segmento de Casas|Apartamentos|Cuartos-->
+    <ion-row class="ion-justify-content-center">
+      <div class="contendorCards">
+        <!--Primera Card-->
+        <a href="#" style="text-decoration: none"><div class="cardsAlquileres" style="background-image:url('../../assets/media/portadas/negocio1.jpg')">
+          <div class="cntPrecio">
+            <div class="precio">
+              <h5 class="monto">$80</h5>
+            </div>
+          </div>
+          <ion-grid class="contenedorInfo">
+            <ion-row>
+              <ion-col size="8">
+                <ion-text>
+                  <h6 class="textTitulo">Habitación para estudiantes</h6>
+                  <h6 class="textBarrio">Barrio Heroes y mártires</h6>
+                </ion-text>
+              </ion-col>
+              <ion-col size="4">
+                <img src="../../assets/avatar/avatar1.jpg" class="avartar">
+                <p class="nombreAvatar">Marta Rivas</p>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </div></a>
+      </div>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,172 @@
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+/*Etiqueta de formateo*/
+* {
+  font-family: 'lato';
+}
+
+ion-content {
+  background-color: rgba(255, 0, 0, 0.4);
+}
+
+/*Primera Sección Textos*/
+#primeraRow {
+  margin-top: 1.2rem;
+}
+
+.textoPrincipal {
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.35rem;
+  margin-left: 0.30rem !important;
+}
+
+.textoPrincipal span {
+  color: #0A3054;
+}
+
+#textoPrincipalHead {
+  color: #0A3054;
+  font-size: 1.45rem;
+}
+
+.textoPrincipal span {
+  color: #0A3054;
+  font-weight: bold;
+}
+
+.txtSL {
+  font-size: 0.75rem;
+  color: #686868;
+  margin-left: 0.45rem;
+}
+
+.textoSecundarios {
+  margin-top: -0.50rem;
+}
+
+.textoTerciarios {
+  margin-top: -0.35rem;
+  font-weight: bold;
+  font-size: 0.85rem;
+  color: #505050;
+}
+
+#textComidas {
+  font-size: 0.70rem;
+  color: #686868;
+}
+
+/*Iconos Perfiles*/
+.logoMAF {
+  width: 50px;
+  height: 65px;
+  margin-top: 1.2rem;
+  margin-right: 0.45rem;
+}
+
+/*Segunda Sección*/
+/*+++++++++++++++++++++++++++Secciónn Slider+++++++++++++++++++++++++*/
+#cntSlider {
+  margin-top: -1.2rem;
+}
+
+.tituloSLider {
+  margin-top: 0.45rem;
+  margin-left: 0.70rem;
+  font-size: 0.80rem;
+}
+
+/*Tarjetas Banner*/
+.card {
+  width: 95vw;
+  height: 25vh;
+  box-shadow: 0px 10px rgba(0, 0, 0, 0.03);
+}
+
+
+/*ImgBanner*/
+#itemSliderPromo1 {
+  /* background-image: url('../../assets/media/banners/bannerPromo1.jpg'); */
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#itemSliderPromo2 {
+  /* background-image: url('../../assets/media/banners/bannerPromo2.jpg'); */
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#itemSliderPromo3 {
+  /*  background-image: url('../../assets/media/banners/bannerPromo3.jpg'); */
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/*Tercera Parte*/
+/*+++++++++++++++++++++++++++++Tarjetas Taxista+++++++++++++++++++++++++++++++*/
+.cntCardTaxistas {
+  margin-top: 0.5rem;
+}
+
+.tituloCards {
+  font-size: 0.70rem;
+}
+
+.cardTaxista {
+  width: 95vw;
+  height: 22vh;
+  margin-bottom: 0.98rem;
+  border-radius: 17px;
+  border: 1px solid #505050;
+  overflow: hidden;
+}
+
+/*Foto Taxista*/
+.fotoTaxista {
+  width: 30vw;
+  height: 22vh;
+  margin-top: -0.30rem;
+  margin-left: -0.30rem;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.cardTaxista {
+  display: flex;
+  flex-direction: row;
+}
+
+.infoTaxista {
+  width: 64.3vw;
+  height: 22vh;
+  margin-top: -1rem;
+  margin-left: 1.2rem;
+}
+
+.infoTaxi span {
+  color: #0A3054;
+  font-weight: bold;
+}
+
+#nombreTaxi {
+  color: #0A3054;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.infoTaxi {
+  font-size: 0.57rem;
+  margin-left: 0.35rem;
+}
+
+#modeloTaxi,
+#colorTaxi,
+#placaTaxi,
+#cooperativaTaxi {
+  margin-top: -0.30rem;
+}

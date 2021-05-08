@@ -1,0 +1,98 @@
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+/*Etiqueta de formateo*/
+* {
+  font-family: 'lato';
+}
+
+ion-content {
+  background-color: rgba(255, 0, 0, 0.4);
+}
+
+/*Primera Sección Textos*/
+#primeraRow {
+  margin-top: 1.2rem;
+}
+
+.textoPrincipal {
+  color: #0A3054;
+  font-weight: bold;
+  font-size: 1.53rem;
+  margin-left: 0.30rem !important;
+}
+
+#textoPrincipalHead {
+  color: #0A3054;
+  font-size: 1.45rem;
+}
+
+.textoPrincipal span {
+  color: #0A3054;
+  font-weight: bold;
+}
+
+.txtSL {
+  font-size: 0.75rem;
+  color: #686868;
+  margin-left: 0.45rem;
+}
+
+.textoSecundarios {
+  margin-top: -0.50rem;
+}
+
+.textoTerciarios {
+  margin-top: -0.35rem;
+  font-weight: bold;
+  font-size: 0.85rem;
+  color: #505050;
+}
+ 
+#textComidas {
+  font-size: 0.70rem;
+  color: #686868;
+}
+
+/*Iconos Perfiles*/
+.logoMAF {
+  width: 50px;
+  height: 65px;
+  margin-top: 1.2rem;
+  margin-right: 0.45rem;
+}
+
+/*Banner Negocios*/
+.secNegocios {
+  margin-bottom: 3.5rem;
+}
+
+.itemNegocios {
+  width: 85vw;
+  height: 23vh;
+  margin-bottom: 0.70rem;
+  border-radius: 20px;
+}
+
+#pmNegocio,
+#sgNegocio {
+  margin-bottom: 1.1rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/*Contenedor Estrellas*/
+.cntBannerNegocios {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/*Estrellas*/
+.estrellas {
+  margin-top: 6rem;
+  margin-right: 0.70rem;
+  width: 30vw;
+  height: 4vh;
+}

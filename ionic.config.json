@@ -1,0 +1,7 @@
+{
+  "name": "Mi_Amigo_foraneo_v",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

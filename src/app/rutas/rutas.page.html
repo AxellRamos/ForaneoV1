@@ -1,0 +1,35 @@
+<ion-content>
+  <br>
+  <ion-row>
+      
+    <ion-col size="1"></ion-col>
+
+    <ion-col size="7">
+      <h5 class="textoPrincipal" id="textoPrincipalHead">Horarios de<span> Buses</span></h5>
+    </ion-col>
+    <ion-col size="3">
+      <img src="../assets/media/img/iconos/petIcon.png" alt="" class="logoMAF">
+    </ion-col>
+
+    <ion-col size="1"></ion-col>
+
+  </ion-row>
+  <ion-segment value="zonanorte" (ionChange)="segmentChanged($event)" class="segmentfondo">
+    <ion-segment-button value="zonanorte">
+      <ion-label class="segmet">Zona Norte</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="zonasur">
+      <ion-label class="segmet">Zona Sur</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+  
+  <ion-grid>
+    <ion-row *ngIf="zonanorte">
+      <img src="../../assets/media/img/rutas.png" alt="" style="margin-bottom: 20% !important;">
+    </ion-row>
+
+    <ion-row *ngIf="zonasur">
+      <img src="../../assets/media/img/rutas1.png" alt="" style="margin-bottom: 10%;">
+    </ion-row>
+  </ion-grid>
+</ion-content>
