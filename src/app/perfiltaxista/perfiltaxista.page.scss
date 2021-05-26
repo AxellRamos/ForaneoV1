@@ -1,0 +1,22 @@
+.fondo{
+    background-image: url(../../assets/media/portadas/taxista.jpg) !important;
+    width: 100%;
+}
+div.avatar {
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 100px;
+    width: 100px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    margin: 0 auto;
+}
+.card{
+    border-radius: 30px 30px 30px 30px;
+}
+p{
+    font-size: 0.8em;
+    margin: 0 auto;
+}

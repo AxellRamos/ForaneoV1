@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-tab1',
@@ -8,10 +9,17 @@ import { Router } from '@angular/router';
 })
 export class Tab1Page {
 
-  constructor(public router: Router) {}
+  constructor(public router: Router, public navCtrl: NavController) {}
 
   click(){
-    this.router.navigate(['perfilcuarto']); 
+    this.router.navigate(['perfilcuarto']);
+  }
+  comida(){
+    this.router.navigate(['perfilcomida']);
+  }
+
+  taxista(){
+    this.router.navigate(['perfiltaxista']);
   }
 
 }

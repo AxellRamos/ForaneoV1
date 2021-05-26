@@ -12,7 +12,11 @@
       </ion-col>
     </ion-row>
     <ion-row>
-      <ion-button color="warning" style="margin: 0 auto;">Reservar Ahora</ion-button>
+      <ion-button color="warning" style="margin: 0 auto;" (click)="reserva">Reservar Ahora</ion-button>
+    </ion-row>
+    <br>
+    <ion-row>
+      <ion-button color="warning" style="margin: 0 auto;" (click)="retornar()"><ion-icon name="arrow-back-circle-outline"></ion-icon> Retornar</ion-button>
     </ion-row>
   </ion-grid>
 </ion-content>

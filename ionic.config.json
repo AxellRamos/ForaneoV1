@@ -1,7 +1,8 @@
 {
   "name": "Mi_Amigo_foraneo_v",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }

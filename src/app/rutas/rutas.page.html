@@ -25,10 +25,16 @@
   
   <ion-grid>
     <ion-row *ngIf="zonanorte">
+      <ion-row>
+        <ion-button color="warning" style="margin: 0 auto;" (click)="retornar()"><ion-icon name="arrow-back-circle-outline"></ion-icon></ion-button>
+      </ion-row>
       <img src="../../assets/media/img/rutas.png" alt="" style="margin-bottom: 20% !important;">
     </ion-row>
 
     <ion-row *ngIf="zonasur">
+      <ion-row>
+        <ion-button color="warning" style="margin: 0 auto;" (click)="retornar()"><ion-icon name="arrow-back-circle-outline"></ion-icon></ion-button>
+      </ion-row>
       <img src="../../assets/media/img/rutas1.png" alt="" style="margin-bottom: 10%;">
     </ion-row>
   </ion-grid>

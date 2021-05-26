@@ -45,6 +45,10 @@ const routes: Routes = [
   {
     path: 'perfilcomida',
     loadChildren: () => import('./perfilcomida/perfilcomida.module').then( m => m.PerfilcomidaPageModule)
+  },
+  {
+    path: 'perfiltaxista',
+    loadChildren: () => import('./perfiltaxista/perfiltaxista.module').then( m => m.PerfiltaxistaPageModule)
   }
 ];
 @NgModule({

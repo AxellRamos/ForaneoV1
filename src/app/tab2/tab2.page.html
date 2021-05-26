@@ -35,8 +35,8 @@
     <ion-row class="ion-justify-content-center">
       <div class="contendorCards">
         <!--Primera Card-->
-        <a href="#" style="text-decoration: none"><div class="cardsAlquileres" style="background-image:url('../../assets/media/portadas/negocio1.jpg')">
-          <div class="cntPrecio">
+        <a href="#" style="text-decoration: none" (click)="perfilcuarto()" [routerLink]="['/perfilcuarto']"><div class="cardsAlquileres" style="background-image:url('../../assets/media/portadas/negocio1.jpg')">
+          <div class="cntPrecio"> 
             <div class="precio">
               <h5 class="monto">$80</h5>
             </div>

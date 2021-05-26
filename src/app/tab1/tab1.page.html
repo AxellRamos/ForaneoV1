@@ -11,15 +11,15 @@
           <h6 class="textoTerciarios txtSL">¡Encuentra lo que necesitas!</h6>
         </div>
       </ion-col>
-      <!--Segunda Columna-->
+      <!--Segunda Columna--> 
       <ion-col zise="3">
-        <img src="../assets/media/img/iconos/petIcon.png" class="logoMAF" (click)="click()">
+        <img src="../assets/media/img/iconos/petIcon.png" class="logoMAF">
       </ion-col>
     </ion-row>
 
     <ion-row>
       <ion-col>
-        <img src="../../assets/media/img/traveler-748246_1920.jpg" alt="" class="consejos">
+        <img src="../../assets/media/img/traveler-748246_1920.jpg" alt="" class="consejos" (click)="taxista()">
       </ion-col>
     </ion-row>
 
@@ -31,12 +31,12 @@
         <ion-slides pager="true">
         <!--Item Slider 1-->
         <ion-slide class="itemSliderPromo">
-          <div class="card"  id="itemSliderPromo1" style="background-image:url('../../assets/media/banners/bannerPromo1.jpg')">
+          <div class="card"  id="itemSliderPromo1" style="background-image:url('../../assets/media/banners/bannerPromo1.jpg')" (click)="click()">
           </div>
         </ion-slide>
         <!--Item Slider 2-->
         <ion-slide class="itemSliderPromo">
-          <div class="card" id="itemSliderPromo2" style="background-image:url('../../assets/media/banners/bannerPromo2.jpg')">
+          <div class="card" id="itemSliderPromo2" style="background-image:url('../../assets/media/banners/bannerPromo2.jpg')" (click)="comida()">
           </div>
         </ion-slide>
         <!--Item Slider 3-->
@@ -50,7 +50,7 @@
     <ion-row class="secNegocios ion-justify-content-center">
       <ion-text>
         <h6 class="textoSecundarios txtSL" id="txtNegocios">¡Nuestra sugerencia!</h6>
-        <div class="itemNegocios ion-align-self-center" id="pmNegocio"  style="background-image:url('../../assets/media/banners/bannerHome/negocioBanner1.jpg')"></div>
+        <div class="itemNegocios ion-align-self-center" id="pmNegocio"  style="background-image:url('../../assets/media/portadas/huevo.jpg')" (click)="comida()"></div>
       </ion-text>
     </ion-row>
   </ion-grid>

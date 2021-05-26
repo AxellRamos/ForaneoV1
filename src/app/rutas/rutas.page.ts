@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-rutas',
@@ -10,7 +11,7 @@ export class RutasPage implements OnInit {
   zonanorte: boolean=true;
   zonasur: boolean=false;
 
-  constructor() { }
+  constructor(public navCtrl: NavController) { }
 
   ngOnInit() {
   }
@@ -24,6 +25,10 @@ export class RutasPage implements OnInit {
       this.zonanorte = false;
       this.zonasur = true;
     }
+  }
+
+  retornar():void{
+    this.navCtrl.pop();
   }
 
 }

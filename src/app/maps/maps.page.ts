@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as leaflet from 'leaflet';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-maps',
@@ -9,7 +10,7 @@ import * as leaflet from 'leaflet';
 export class MapsPage implements OnInit {
   map: any;
 
-  constructor() { }
+  constructor(public navCtrl: NavController) { }
 
   ngOnInit() {
   }
@@ -29,6 +30,10 @@ export class MapsPage implements OnInit {
         })
       ]
     });
+  }
+
+  retornar():void{
+    this.navCtrl.pop();
   }
 
 }
